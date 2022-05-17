@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<!--link rel="stylesheet" href="style.css"-->
+	</head>
+	<body>
+	<h1>Galois GF(3^3)<br></h1>
+	<br>text:<input type="text", id="txt", pattern="[a-zA-Z]", autofocus;/>
+	<br><br>a1: <input type="text", id="a1", value="[0,2,1]";/>
+	<br><br>a2: <input type="text", id="a2", value="[1,1,1]";/>
+	<br><br>b1: <input type="text", id="b1", value="[0,0,2]";/>
+	<br><br>b2: <input type="text", id="b2", value="[1,1,0]";/>
+	<input type="submit" value="Galois3" onclick="galois3()"/>
+	<br><br>
+	<label for="result">result: </label><input type="textbox", name="result"/>
+	<br><br>
+	<textarea name="result2", rows="10", cols="69"></textarea>
+	<script src='galois3.js'></script>
+	</body>
+</html>
